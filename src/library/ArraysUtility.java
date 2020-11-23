@@ -66,7 +66,7 @@ public class ArraysUtility {
 
 
     /*
-    Combines two arrays of integers and return the new array
+        Combines two arrays of integers and return the new array
      */
     public static int[] combineTwoArrays(int[] arr1, int[] arr2){
         int[] arr3 = new int[arr1.length+arr2.length];
@@ -77,6 +77,63 @@ public class ArraysUtility {
         }
 
         for(int each : arr2){
+            arr3[i++]  = each;
+        }
+
+        return arr3;
+    }
+
+
+    /*
+       Combines two arrays of double and return the new array
+    */
+    public static double[] combineTwoArrays(double[] arr1, double[] arr2){
+        double[] arr3 = new double[arr1.length+arr2.length];
+        int i = 0;
+
+        for(double each : arr1){
+            arr3[i++] = each;
+        }
+
+        for(double each : arr2){
+            arr3[i++]  = each;
+        }
+
+        return arr3;
+    }
+
+
+    /*
+       Combines two arrays of char and return the new array
+    */
+    public static char[] combineTwoArrays(char[] arr1, char[] arr2){
+        char[] arr3 = new char[arr1.length+arr2.length];
+        int i = 0;
+
+        for(char each : arr1){
+            arr3[i++] = each;
+        }
+
+        for(char each : arr2){
+            arr3[i++]  = each;
+        }
+
+        return arr3;
+    }
+
+
+    /*
+       Combines two arrays of String and return the new array
+    */
+    public static String[] combineTwoArrays(String[] arr1, String[] arr2){
+        String[] arr3 = new String[arr1.length+arr2.length];
+        int i = 0;
+
+        for(String each : arr1){
+            arr3[i++] = each;
+        }
+
+        for(String each : arr2){
             arr3[i++]  = each;
         }
 
@@ -146,8 +203,6 @@ public class ArraysUtility {
 
 
 
-
-
     /*
     replaces the [] with {}  while printing the array
      */
@@ -158,11 +213,71 @@ public class ArraysUtility {
     }
 
 
+    /*
+        adds element to the integer array
+     */
+    public static int[] addElement(int[] array, int element){
+        int[] result = new int[array.length + 1];
+
+        for(int i = 0; i <= array.length-1; i++ ){
+            result[i]  = array[i];
+        }
+
+        result[result.length-1] = element;
+
+        return result;
+    }
+
 
     /*
-    {1,2,3}, 4
-    {1,2,3,4}
+        adds element to the double array
      */
+    public static double[] addElement(double[] array, double element){
+        double[] result = new double[array.length + 1];
+
+        for(int i = 0; i <= array.length-1; i++ ){
+            result[i]  = array[i];
+        }
+
+        result[result.length-1] = element;
+
+        return result;
+    }
+
+
+    /*
+        adds element to the char array
+     */
+    public static char[] addElement(char[] array, char element){
+        char[] result = new char[array.length + 1];
+
+        for(int i = 0; i <= array.length-1; i++ ){
+            result[i]  = array[i];
+        }
+
+        result[result.length-1] = element;
+
+        return result;
+    }
+
+
+    /*
+        adds element to the String array
+     */
+    public static String[] addElement(String[] array, String element){
+        String[] result = new String[array.length + 1];
+
+        for(int i = 0; i <= array.length-1; i++ ){
+            result[i]  = array[i];
+        }
+
+        result[result.length-1] = element;
+
+        return result;
+    }
+
+
+
 
 
 
