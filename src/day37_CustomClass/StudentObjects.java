@@ -1,6 +1,7 @@
 package day37_CustomClass;
 
 
+
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -54,6 +55,18 @@ public class StudentObjects {
                 System.out.println(each);
             }
         }
+
+        System.out.println("===========================================================");
+        Student s1 = new Student();
+        Student s2 = s1;
+
+        s1.setInfo("Aaron", 'M', LocalDate.of(2000,11,2), "A01", 3.5);
+        s2.setInfo("Mary", 'F', LocalDate.of(1995, 9, 5), "C456", 3.8);
+
+        System.out.println(s1);
+        System.out.println(s2);
+
+
 
 
 
