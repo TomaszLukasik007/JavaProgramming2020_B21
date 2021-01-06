@@ -7,7 +7,6 @@ public class EmployeeInfo {
         String firstName = "Yasin"; //"" for the texts
         String lastName = "Seyhan";
         String fullName =   firstName+" "+lastName; // string ==> text
-
         char gender = 'M'; // '' for single character
         int age = 30;
         String companyName = "Bank Of America";
@@ -61,6 +60,7 @@ public class EmployeeInfo {
 /*
         declare the following variables:
             firstName, lastName, gender, age, companyName, jobTitle, isFullTime, isMarried, salary
+
     write a program that can display the full info of the employee
             ex:
                      firstName = John
@@ -72,6 +72,7 @@ public class EmployeeInfo {
                      isFullTime = true
                      isMarried = false
                      salary = 120000.50
+
      output:
                 Employee' full name is: John Daniel
                 John Daniel' gender is: M

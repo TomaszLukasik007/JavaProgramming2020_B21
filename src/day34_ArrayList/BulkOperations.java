@@ -27,13 +27,13 @@ public class BulkOperations {
         // verify if 10, 30, 50 & 60 all are contained in the lost
         boolean r3 =    list.containsAll(   Arrays.asList( 10, 30, 50, 60 )   );
         System.out.println(r3);
-
+        
         ArrayList<String> group1 =  new ArrayList<>();
         group1.add("Mohammad");
         group1.add("Svetlana");
         group1.add("Ahmed");
         group1.add("Ercan");
-
+        
         // Ahmed, Ercan, Biden
 
         boolean r5 =  group1.containsAll(  Arrays.asList("Ahmed", "Ercan", "Biden")  );
@@ -56,7 +56,7 @@ public class BulkOperations {
 
         ArrayList<String> students = new ArrayList<>( Arrays.asList(names) );
 
-        // students.addAll( Arrays.asList(names)  );
+       // students.addAll( Arrays.asList(names)  );
 
         System.out.println(students);
 

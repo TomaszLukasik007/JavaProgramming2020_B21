@@ -39,8 +39,8 @@ public class BankOfAmerica { // Bank of America HAS An Employee
 
         System.out.println("=================================================================");
         ArrayList<Employee> richPeople = new ArrayList<>();
-        richPeople.addAll(  Arrays.asList(employees) );
-        // for(Employee each : employees)  richPeople.add(each);
+         richPeople.addAll(  Arrays.asList(employees) );
+       // for(Employee each : employees)  richPeople.add(each);
 
         richPeople.removeIf( p ->  p.salary < 200000 ); // remove the employee, if the employee salary is less than 200K
 
@@ -50,7 +50,7 @@ public class BankOfAmerica { // Bank of America HAS An Employee
         String name = "";
 
         for( Employee each: employees){
-            // maxSalary = Math.max(maxSalary,  each.salary );
+           // maxSalary = Math.max(maxSalary,  each.salary );
             if(each.salary > maxSalary  ){  // if any employee has more lsalary
                 maxSalary = each.salary;
                 name = each.name;
@@ -72,9 +72,15 @@ public class BankOfAmerica { // Bank of America HAS An Employee
 
 /*
 Engine{
+
 }
+
 Car{
+
     Engine
+
 }
+
 Car Has An Engine
+
  */

@@ -17,7 +17,7 @@ public class BankOfAmerica {
         obj1.deposit(100);
         obj1.availableBalance();
 
-        // BankAccount.bankName = "Capital One";
+       // BankAccount.bankName = "Capital One";
         System.out.println(   BankAccount.bankName );
 
 

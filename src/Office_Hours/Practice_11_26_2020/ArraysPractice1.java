@@ -1,9 +1,7 @@
 package Office_Hours.Practice_11_26_2020;
 
-
 import java.util.ArrayList;
 import java.util.Arrays;
-
 
 public class ArraysPractice1 {
 
@@ -13,10 +11,10 @@ public class ArraysPractice1 {
 
         System.out.println(Arrays.toString(arr));
 
-        arr[0] = 30;
-        arr[3] = 25;
-        arr[4] = 15;
-        arr[1] =50;
+              arr[0] = 30;
+              arr[3] = 25;
+              arr[4] = 15;
+              arr[1] =50;
 
         System.out.println(Arrays.toString(arr));
 

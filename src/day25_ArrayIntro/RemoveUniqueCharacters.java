@@ -1,11 +1,12 @@
 package day25_ArrayIntro;
 
 public class RemoveUniqueCharacters {
+
     public static void main(String[] args) {
 
         String str = "abcabd";
         String result = "";   // abab
-        //ab
+                            //ab
 
         for(int j =0; j < str.length(); j++){
 
@@ -25,6 +26,14 @@ public class RemoveUniqueCharacters {
         }
 
         System.out.println("result = " + result);
+
+
+
+
+
+
+
+
     }
 
 }

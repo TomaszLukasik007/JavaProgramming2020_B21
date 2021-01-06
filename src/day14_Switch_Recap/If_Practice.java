@@ -1,8 +1,10 @@
 package day14_Switch_Recap;
 
 public class If_Practice {
+
     public static void main(String[] args) {
-// if & else: 2 options
+
+    // if & else: 2 options
         int n = 10000;
 
         if(n % 2 != 0 ){ // for odd
@@ -29,7 +31,7 @@ public class If_Practice {
         }
 
         System.out.println("========================================");
-        // else if: 3 or more options
+    // else if: 3 or more options
 
         int n1 = 100;
         int n2 = 200;
@@ -53,7 +55,7 @@ public class If_Practice {
         else if(num == 6) System.out.println("Today is Saturday");
         else System.out.println("Today is Sunday");
 
-        // without curly braces the block can contain one statement ONLY
+                // without curly braces the block can contain one statement ONLY
 
         int Age =35;
 
@@ -80,8 +82,12 @@ public class If_Practice {
                 System.out.println("Senior");
             }
 
-        }else
+        }else {
             System.out.println("Invalid Age");
+        }
+
+
 
     }
+
 }

@@ -1,6 +1,7 @@
 package day23_NestedLoop;
 
 public class BranchingStatement {
+
     public static void main(String[] args) {
 
         int a =10;
@@ -18,24 +19,3 @@ public class BranchingStatement {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

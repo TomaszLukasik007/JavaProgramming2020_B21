@@ -1,28 +1,11 @@
 package day26_Arrays;
 
 public class FrequencyOfEachChars {
+
     public static void main(String[] args) {
-
-
-
-        /* Warmup tasks:
-    1. write a program that can return the frequency of characters from a String
-            Ex:
-                str = "ababaac";
-                output:
-                    a3b2c1
-    2. write a program that can return the maximum number from an array of integers
-    3. write a program that can return the minimum number from an array of integers
-    4. Write a program that can return the average number from an array of integers
-            ex:
-                [1,2,3]
-                average: 2
-                [10, 15, 5, 6]
-                average: 9 */
-
         String str = "aaabbc";  // "a3b2c1"
 
-        //  Step 1: remove duplicates
+  //  Step 1: remove duplicates
         String nonDup = "";   // "abc"
         for(int i = 0; i < str.length(); i++ ){ //i: 0,1,2,3,4,5
             String eachChar = ""+ str.charAt(i); // a, a, a, b, b, c
@@ -31,20 +14,20 @@ public class FrequencyOfEachChars {
             }
         }
 
-
         String result = "";  // "a3b2c1"
-        // Step 2: find the frequency of each nonDiup characters from the original string
-        for(int j =0; j <= nonDup.length()-1; j++){
+  // Step 2: find the frequency of each nonDiup characters from the original string
+        for(int j =0; j <= nonDup.length()-1; j++){ // j is the index num of nonDup
 
             char ch = nonDup.charAt(j); // a, b, c
             int count = 0;  // to contain the frequency of char ch
 
-            for(int i=0; i <= str.length()-1; i++){
+            for(int i=0; i <= str.length()-1; i++){ // i is the index num of original string
                 char eachChar =  str.charAt(i);  // a, a, a, b, b, c
                 if(ch == eachChar ){
                     count++;
                 }
             }
+
             result +=  ""+ch + count;
 
         }
@@ -59,3 +42,13 @@ public class FrequencyOfEachChars {
     }
 
 }
+
+/*
+	FrequencyOfEachChars
+	1. write a program that can return the frequency of characters from a String
+			Ex:
+				str = "ababaac";
+
+				output:
+					a3b2c1
+ */

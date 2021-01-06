@@ -20,7 +20,7 @@ public class FrequencyOfCharacters {
             int frequency = Collections.frequency(list, each);
 
             if(result.contains(each)) { // to avoid duplicated characters in the result
-                continue;
+              continue;
             }
 
             result += each + frequency;

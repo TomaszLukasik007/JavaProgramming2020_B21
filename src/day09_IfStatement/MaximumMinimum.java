@@ -1,8 +1,8 @@
 package day09_IfStatement;
 
 public class MaximumMinimum {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         int n1 =300;
         int n2 = 4;
 
@@ -55,6 +55,7 @@ public class MaximumMinimum {
 			num2 = 30;
 			output:
 				30 is the maximum number
+
 			num1 = 20;
 			num2 = 20;
 			output:
@@ -66,4 +67,3 @@ public class MaximumMinimum {
 			output:
 				20 is the minimum number
  */
-

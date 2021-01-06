@@ -1,9 +1,9 @@
 package day10_IfElseStatement;
 
 public class Post_VS_Pre {
-    public static void main(String[] args) {
 
-// pre:
+    public static void main(String[] args) {
+        // pre:
         double x = 7; //7
 
         System.out.println( ++x ); // 8.0
@@ -25,6 +25,6 @@ public class Post_VS_Pre {
 
 
 
-
     }
+
 }

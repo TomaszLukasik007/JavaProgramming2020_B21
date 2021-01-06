@@ -25,7 +25,7 @@ public class FindUniques {
 
         String[] uniques = new String[uniqueElementsList.size()];
         for(int i = 0; i <= uniques.length-1; i++){
-            uniques[i]  = uniqueElementsList.get(i); // each element of the array list need to be assigned to each index of the array
+           uniques[i]  = uniqueElementsList.get(i); // each element of the array list need to be assigned to each index of the array
         }
 
 

@@ -1,10 +1,8 @@
 package day25_ArrayIntro;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
-
 public class UniqueCharacters {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         String str = "abcababe";
 
         String result = "";  //"ce"
@@ -29,6 +27,10 @@ public class UniqueCharacters {
 
 
         System.out.println(result);
+
+
+
+
 
     }
 

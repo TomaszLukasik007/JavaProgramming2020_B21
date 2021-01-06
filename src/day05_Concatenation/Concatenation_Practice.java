@@ -4,17 +4,17 @@ public class Concatenation_Practice {
 
     public static void main(String[] args) {
 
-        int houseNumber = 7925;
-        String streetName = "Johns Branch Dr";
-        String cityName = "Chicago";
-        String state = "IL";
-        int zipCode = 22000;
+            int houseNumber = 11822;
+            String streetName = "Federalist Way";
+            String cityName ="Fairfax";
+            String state = "VA";
+            int zipCode = 20302;
 
-        String fullAddress = houseNumber + " " + streetName + "\n" + cityName + " " + state + ", " + zipCode;
+            String fullAddress = houseNumber+ " "+ streetName+"\n"  + cityName+" " + state+", " +zipCode;
 
         System.out.println(fullAddress);
 
-        System.out.println("=================================================");
+        System.out.println("=============================================");
 
         String brand = "BMW";
         String model = "X7";
@@ -26,18 +26,9 @@ public class Concatenation_Practice {
         // 2010 Toyota Camry, 55000 miles, Red, $18000
         String carInfo = year+" "+brand+" "+model+", "+mileage+" miles, "+color+", $"+price; // concatenation
 
-        System.out.println(carInfo);
-
-
-
-
-
-
-
-
-
-
+        System.out.println( carInfo );
 
 
     }
-    }
+
+}

@@ -3,11 +3,14 @@ package day02_FirstJavaProgramming;
 public class Classmates {
 
     public static void main(String[] args) {
-        System.out.println("Tomasz");
-        System.out.println("Igor");
-        System.out.println("Daniel");
-        System.out.println("Asuman");
-        System.out.println("Zarina");
+
+        System.out.println("Mohammed Alattar");
+        System.out.println("Daria Volkau");
+        System.out.println("Abdullah Irfan");
+        System.out.println("Mustafa Tanis");
+        System.out.println("Abdujilil Ahat");
+
     }
+
 
 }

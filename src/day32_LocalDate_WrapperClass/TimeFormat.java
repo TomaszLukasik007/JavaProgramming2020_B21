@@ -8,18 +8,20 @@ import java.util.zip.DataFormatException;
 
 public class TimeFormat {
 
-    /*
-    LocalDate:
-        year: yyyy
-        month: MM (number), MMM(three letters of month), MMMM(full name)
-        days: dd
-        name of day: E(three letters) , EEEE (full name)
-    LocalTime:
-        hours: hh
-        minutes: mm
-        seconds: ss
-        am/pm: a
-     */
+/*
+LocalDate:
+    year: yyyy
+    month: MM (number), MMM(three letters of month), MMMM(full name)
+    days: dd
+    name of day: E(three letters) , EEEE (full name)
+
+LocalTime:
+    hours: hh
+    minutes: mm
+    seconds: ss
+    am/pm: a
+
+ */
     public static void main(String[] args) {
         DateTimeFormatter df = DateTimeFormatter.ofPattern("MMMM/dd/yyyy, EEEE");
 
@@ -63,7 +65,7 @@ public class TimeFormat {
         System.out.println(r2);
 
         // calculate the age
-        // 2020-11-23      2020
+                        // 2020-11-23      2020
         int currentYear = LocalDate.now().getYear();
         LocalDate DofB = LocalDate.of(2000, 5, 19);
 

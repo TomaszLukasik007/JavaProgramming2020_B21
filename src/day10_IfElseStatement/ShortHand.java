@@ -1,9 +1,9 @@
 package day10_IfElseStatement;
 
 public class ShortHand {
-    public static void main(String[] args) {
 
-//=:
+    public static void main(String[] args) {
+    //=:
         int a = 100;
         System.out.println(a); // 100;
         System.out.println(++a); // 101
@@ -22,39 +22,39 @@ public class ShortHand {
         name = "John";
         System.out.println(name);
 
-        // +=:
+    // +=:
         int A = 200;
-        //  A = A + 100;
-        A += 100;  // the adition will be assigned to the variable
+          //  A = A + 100;
+            A += 100;  // the adition will be assigned to the variable
 
         System.out.println(A);
 
         String school = "Cybertek";
-        //      school = school + " School";
+         //      school = school + " School";
         school += " School";  // concatenation assignment
 
         System.out.println(school);
 
         int savingAccount = 1000;
 
-        savingAccount += 2000;
+            savingAccount += 2000;
 
         System.out.println(savingAccount); // october
 
-        savingAccount += 500;
+            savingAccount += 500;
 
         System.out.println(savingAccount); // november
 
-        // -=:
-        savingAccount -= 1000;
+    // -=:
+            savingAccount -= 1000;
 
         System.out.println(savingAccount);
 
-        savingAccount -= 500;
+            savingAccount -= 500;
 
         System.out.println(savingAccount);
 
-        // *=:
+    // *=:
         double salary = 100000;
         salary *= 1.2;
         System.out.println(salary);
@@ -64,7 +64,7 @@ public class ShortHand {
 
         System.out.println(Y);
 
-        // /= :
+    // /= :
 
         double tax = 10000;
         tax /= 2;
@@ -72,23 +72,24 @@ public class ShortHand {
         System.out.println(tax);
 
         int B = 3000;
-        // B /= 0;
+       // B /= 0;
 
         System.out.println(B);
 
-        // %=:
-        // remainder: if numerator cannot be evenly divisible by denominator
+    // %=:
+    // remainder: if numerator cannot be evenly divisible by denominator
         /*
         remainder: what you have left after diving a number by another number
             in math:
                 10/4 = 2.5
                 remainder: 10 - (4 * 2) = 2
+
             in java:
                 10 % 4 ==> 2
          */
 
         int T = 100;
-        T %= 10;
+            T %= 10;
 
         System.out.println(T);
 
@@ -108,14 +109,6 @@ public class ShortHand {
 
 
 
-
-
-
-
-
-
-
-
-
     }
+
 }

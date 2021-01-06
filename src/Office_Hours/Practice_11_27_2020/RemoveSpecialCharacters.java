@@ -8,8 +8,8 @@ public class RemoveSpecialCharacters {
 
         String result = "";
 
-        for (char each : str.toCharArray()) {
-            if (Character.isLetterOrDigit(each)) {
+        for(char each  : str.toCharArray()){
+            if(Character.isLetterOrDigit(each)){
                 result += each;
             }
         }
@@ -18,4 +18,5 @@ public class RemoveSpecialCharacters {
 
 
     }
+
 }

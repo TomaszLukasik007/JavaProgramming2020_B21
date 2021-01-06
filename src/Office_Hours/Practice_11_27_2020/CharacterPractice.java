@@ -13,7 +13,7 @@ public class CharacterPractice {
             char each = (char)i;
             if(!Character.isLetterOrDigit(each)) {
                 // Character.isLetter(each) for printing all letters
-                countSpecialChars++;
+               countSpecialChars++;
             }else if(Character.isLetter(each)){
                 countLetters++;
             }else{

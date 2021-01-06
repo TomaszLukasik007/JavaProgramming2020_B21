@@ -45,9 +45,12 @@ Circle:
     diameter
     area
     perimeter
+
     methods:
         setInfo
         toString
         calculateArea , return double
         calculatePerimeter, return double
+
+
  */

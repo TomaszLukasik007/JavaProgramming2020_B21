@@ -29,6 +29,7 @@ public class Offer {
 /*
 Mac:
     Command + N + Enter
+
 Windows:
    Alt + Insert
  */

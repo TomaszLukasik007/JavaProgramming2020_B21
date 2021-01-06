@@ -3,17 +3,14 @@ package day19_ForLoop;
 import java.util.Scanner;
 
 public class CombineTwoStrings {
+
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-/*Write a program  for CheckWords:
-        Program accepts 3 words and :
-            - if they are same length:      print "All words are same length"
-            - if some same length and others not:    print "Not Same nor Different lengths"
-            - if all different length :  print "All different length"   */
+        String s1 = scan.next();
+        String s2 = scan.next();
 
-        String s1 = "one";
-        String s2 = "eight";
+        scan.close();
 
         if( s1.charAt( s1.length()-1 ) == s2.charAt(0)  ){ // if last character of first string equal to first character of second string
             System.out.println(s1 + s2.substring(1));
@@ -28,5 +25,23 @@ public class CombineTwoStrings {
         }else{
             System.out.println(s1+s2);
         }
+
+
+
+
     }
+
+
+
+
 }
+
+/*
+3. Ask user to enter two words. Then add them together and print. But if the last letter if the first word and the first letter of the last letter is the same, print that character once.
+                    Input:
+                        one
+                        eight
+
+                    Output:
+                        oneight
+ */

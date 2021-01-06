@@ -18,12 +18,12 @@ public class ShoppingList {
         ) );
 
         System.out.println(items);
-
+        
         double total = 0;
-
+        
         for(Item eachItem  : items ){
-            total += eachItem.calcCost();
-
+               total += eachItem.calcCost();
+            
         }
 
 
@@ -42,5 +42,7 @@ public class ShoppingList {
 /*
 create a class called ShoppingList
 			create 5 objects of Item and store them into ArrayList of Items
+
 			calculate the total cost of all Items in the list
+
  */

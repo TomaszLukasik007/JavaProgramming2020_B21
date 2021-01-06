@@ -3,13 +3,13 @@ package day21_WhileLoop;
 import java.util.Scanner;
 
 public class StringReversePractice {
+
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-
         System.out.println("Enter a String");
         String word = scan.nextLine(); // "java"
-        // 0123
+                                        // 0123
         String reversedWord = "";
 
         int lastIndex = word.length() -1 ;
@@ -23,6 +23,7 @@ public class StringReversePractice {
         boolean isPalindrome = word.equalsIgnoreCase(reversedWord);
         System.out.println(isPalindrome);
 
-
     }
+
+
 }

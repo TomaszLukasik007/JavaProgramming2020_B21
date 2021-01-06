@@ -1,50 +1,39 @@
 package day10_IfElseStatement;
 
 public class Alcohol {
+
     public static void main(String[] args) {
+        int age = 20;
 
-        int number = 101;
-        boolean isEven = number%2 == 0;
-
-        if( isEven){  // for even number
-            System.out.println(number+" is even");
-        }
-
-        if( !isEven ){
-            System.out.println(number+" is odd");
-        }
-
-        System.out.println("====================================");
-
-        if(isEven){
-            System.out.println(number+" is even");
+        if(age >= 21){
+            System.out.println("Eligible to buy alcohol");
         }else{
-            System.out.println(number+" is odd");
+            System.out.println("Eligible to buy milk");
         }
 
+        System.out.println("=============================================");
 
-        System.out.println("=====================================");
-        int score = 85;
+        int year = 2020;
 
-        if(score >= 60){
-
-            System.out.println("Passed the exam");
-
-        }else{ // otherwise
-            System.out.println("Failed the exam");
+        if( year%4 == 0 ){
+            System.out.println(year+" is leap year");
+        }else{
+            System.out.println(year+" is not leap year");
         }
 
+        System.out.println("==============================================");
 
+        boolean isAlive = true;
 
-
-
-
-
-
-
+        if(isAlive){
+            System.out.println("Keep coding");
+        }else{
+            System.out.println("RIP");
+        }
 
 
 
 
     }
+
 }

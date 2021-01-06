@@ -83,8 +83,8 @@ public class CybertekSchool { // Has A
 
         for (Student eachStudent : cybertekStudents){
             double eachGPA = eachStudent.gpa;
-            highestGPA =Math.max(eachGPA, highestGPA);
-            lowestGPA  = Math.min(eachGPA, lowestGPA);
+             highestGPA =Math.max(eachGPA, highestGPA);
+             lowestGPA  = Math.min(eachGPA, lowestGPA);
 
         }
 

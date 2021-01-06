@@ -1,38 +1,53 @@
 package day13_SwitchStatement;
 
 public class SwitchStatement_Practice3 {
+
     public static void main(String[] args) {
-
-
-        String Browser = "cybertek";
+        String browser = "cybertek";
         String selectedBrowser = "";
 
-            switch (Browser) {
+        switch (browser){ // chrome
 
-            case  "chrome":
-                selectedBrowser = "Chrome Broser";
-                break;
-            case  "firefox":
-                selectedBrowser = "Firefox Broser";
-                break;
-            case  "opera":
-                selectedBrowser = "Opera Broser";
-                break;
-            case  "safari":
-                selectedBrowser = "Safari Broser";
-                break;
-            case  "edge":
-                selectedBrowser = "Edge Broser";
-                break;
-            case  "ie":
-                selectedBrowser = "IE Broser";
+            case "chrome": selectedBrowser = "CHROME BROWSER";
                 break;
 
-                default : selectedBrowser = "Invalid Browser Name";
+            case "firefox": selectedBrowser = "FIREFOX BROWSER";
+                break;
 
-            }
+            case "opera": selectedBrowser = "OPERA BROWSER";
+                break;
 
-            System.out.println(selectedBrowser);
+            case "safari": selectedBrowser = "SAFARI BROWSER";
+                break;
+
+            case "edge": selectedBrowser = "EDGE BROWSER";
+                break;
+
+            case "ie": selectedBrowser = "INTERNET EXPLORE BROWSER";
+                break;
+
+            default: selectedBrowser ="INVALID BROWSER NAME";
+
+        }
+
+        System.out.println(selectedBrowser);
+
 
     }
+
+
 }
+
+/*
+
+
+task:
+    valid browsers: chrome, firefox, opera, safari, edge, ie
+
+    string str = "chrome"
+
+    outPut:
+        CHROME BROWSER IS SELECTED
+
+        12:35
+ */

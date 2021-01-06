@@ -22,6 +22,8 @@ public class Circle {
 Circle
 		variables:
 				radius, PI, diameter, area, perimeter
+
+
 		add a constructor to initialize the instances
  */
 
@@ -40,5 +42,3 @@ class CircleObjects{
     }
 
 }
-
-

@@ -11,32 +11,24 @@ public class StringPractice3 {
 
 
         String s = "Cybertek School is in Boston, Cybertek Campus is in McLean";
-
-        s = s.replaceFirst("Cybertek", "MIT");
+            s = s.replaceFirst("Cybertek", "MIT");
 
         System.out.println(s);
 
-        String r = "cava is cool programming language, i like to learn cava at cybertek school";
-
-        r =r.replace("cav", "jav");
+        String r = "cava is cool programming language, I can learn cava at cybertek school";
+            r = r.replace("cav", "jav");
 
         System.out.println(r);
 
-        String p = "I like Java and  Java Java Java Java Java Java";
-
-    //    p = p.replace("Java", "").replace("like ", "Like Java");
-
+        String p = "I like Java and Java Java Java Java Java Java";
         p = p.replaceFirst("Java", "C#");
-
         p = p.replaceFirst("Java", "java");
-
         p = p.replace("Java", "");
-
+      //  p = p.replace("Java" , "").replace("like ", "like java") ;
         System.out.println(p);
 
-        System.out.println("===================================================");
-
-        // trim: removes white spaces only
+        System.out.println("==========================================================");
+    // trim: removes white spaces only
 
         String str = "                       ";
 
@@ -96,20 +88,13 @@ public class StringPractice3 {
         String email = "Java_Master@gmail.com";
 
         boolean validEmail =  email.endsWith("gmail.com") || email.endsWith("yahoo.com")
-                || email.endsWith("hotmail.com") || email.endsWith("outlook.com");
+                            || email.endsWith("hotmail.com") || email.endsWith("outlook.com");
 
         if(validEmail){
             System.out.println("valid Email");
         }else{
             System.out.println("Invalid Email");
         }
-
-
-
-
-
-
-
 
 
 

@@ -1,60 +1,57 @@
 package day18_Strings;
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 
 import java.util.Scanner;
+
 public class StringMethods {
+
     public static void main(String[] args) {
 
-
-        //concatenation
-
         String str = "Cybertek";
-        str = str.concat(" School");
+
+         str = str.concat(" School"); // "Cybertek School"
 
         System.out.println(str);
 
         String str2 = "Cybertek";
-        str2 = str2 + " School";
+
+            str2 =  str2 + " School";
 
         System.out.println(str2);
 
-        System.out.println("=====================================================");
+        System.out.println("============================================");
 
         String name = "bank of america";
 
-        name = name.toUpperCase(); //BANK OF AMERICA
+        name = name.toUpperCase(); // "BANK OF AMERICA"
 
-        System.out.println("name = "+name);
+        System.out.println("name = " + name);
 
-        name = name.toLowerCase();
+        name = name.toLowerCase(); // "bank of america"
 
-        System.out.println("name = "+name);
+        System.out.println("name = " + name);
 
-        System.out.println("======================================================");
+        System.out.println("====================================");
 
-        String t1 = "                  HELLO";
-
-        t1 = t1.trim(); //"Hello"
+        String t1 = "          Hello                ";
+               t1 = t1.trim(); // "Hello"
 
         System.out.println(t1);
 
         String t2 = "Hello       Everyone";
-
-        t2 = t2.trim();
+            t2 = t2.trim();
 
         System.out.println(t2);
 
-        System.out.println("=============================================");
+        System.out.println("=========================================");
 
         Scanner scan = new Scanner(System.in);
-
         System.out.println("Enter your first name: ");
         String firstName =    scan.nextLine();
-        firstName = firstName.trim();
+              firstName = firstName.trim();
 
         System.out.println("Enter your last name: ");
         String lastName = scan.nextLine();
-        lastName = lastName.trim();
+                lastName = lastName.trim();
 
         System.out.println("First name is: "+firstName);
 
@@ -63,10 +60,6 @@ public class StringMethods {
 
 
 
-
-
-
-
-
     }
+
 }

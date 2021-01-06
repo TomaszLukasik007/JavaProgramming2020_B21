@@ -1,38 +1,33 @@
 package day13_SwitchStatement;
 
-public class DaysinMonth {
+public class DaysInMonth {
+
     public static void main(String[] args) {
-
-/*     Write a program that can find the number of days in a month
-            Note: MUST USE NESTED IF   */
-
         int year = 2021;
-        int month = 9; // 1 ~ 12
+        int month = 25; // 1 ~ 12
 
-        boolean has28Or29Days = month == 2;
-        boolean has30Days = month == 4 || month == 6 || month ==9 || month==11;
+        boolean has30Days = month == 4 || month == 6 || month == 9 || month == 11;
         //   boolean has31Days = !has28Or29Days || !has30Days;
 
         String result = "";
 
-        if(month > 0 && month < 13){ // 1 ~ 12, if the mopnth is valid
+        if (month > 0 && month < 13) { // 1 ~ 12, if the mopnth is valid
 
-            if(has28Or29Days){ // for Feb
+            if (month == 2) { // for Feb
 
-                if(year%4 == 0){ // leap year
+                if (year % 4 == 0) { // leap year
                     result = "29 days";
-                }else{ // not leap year
+                } else { // not leap year
                     result = "28 days";
                 }
 
-            }else if(has30Days){ // for April, June, September, November
+            } else if (has30Days) { // for April, June, September, November
                 result = "30 days";
-
-            }else{ // for Jan, Mar, May, Jul, Aug, Oct, Dec
+            } else { // for Jan, Mar, May, Jul, Aug, Oct, Dec
                 result = "31 days";
             }
 
-        }else{ // if the month is invalid
+        } else { // if the month is invalid
             result = "Invalid Month";
         }
 
@@ -40,6 +35,11 @@ public class DaysinMonth {
         System.out.println(result);
 
 
-
     }
+
 }
+
+/*
+1. write a program that can find the number of days in a month
+            		Note: MUST USE NESTED IF
+ */

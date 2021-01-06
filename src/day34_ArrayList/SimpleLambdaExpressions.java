@@ -38,7 +38,7 @@ public class SimpleLambdaExpressions {
         scores.addAll( Arrays.asList(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18, 19, 20) );
 
         scores.removeIf( p  ->   p%3 == 0 || p%5==0 );
-        // scores.removeIf( p -> p%5==0 );
+       // scores.removeIf( p -> p%5==0 );
 
         System.out.println(scores);
 

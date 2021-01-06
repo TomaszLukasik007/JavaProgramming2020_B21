@@ -1,6 +1,7 @@
 package day12_NestedIf;
 
 public class Loan {
+
     public static void main(String[] args) {
 
         double minimumSalary = 25000;

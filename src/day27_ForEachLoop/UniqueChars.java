@@ -3,12 +3,13 @@ package day27_ForEachLoop;
 import java.util.Arrays;
 
 public class UniqueChars {
+
     public static void main(String[] args) {
 
         String str = "aabbcddeef";
 
         char[] arr = str.toCharArray(); // [a, a, b, b, c, d, d, e, e, f]
-        // String[] arr = str.split("");
+       // String[] arr = str.split("");
 
         System.out.println(Arrays.toString(arr));
 
@@ -28,6 +29,8 @@ public class UniqueChars {
             }
 
         }
+
+
 
     }
 

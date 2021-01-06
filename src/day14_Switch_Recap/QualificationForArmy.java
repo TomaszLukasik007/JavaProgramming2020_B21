@@ -1,22 +1,31 @@
 package day14_Switch_Recap;
 
 public class QualificationForArmy {
+
     public static void main(String[] args) {
 
-        String citizen = "USA";
+        String citizen = "Turkey";
         boolean isResident = true;
-        boolean isAlien = true;
+        boolean isAlien = false;
 
         boolean hasHighSchoolDiploma = true;
 
-        int age = 39;
+        int age = 18;
 
-        if(citizen == "USA" || isResident || isAlien){
+        int numberOfDependants = 3;
+
+        if( citizen == "USA" || isResident || isAlien ){
 
             if(age >= 17 && age <= 34){
 
                 if(hasHighSchoolDiploma){
-                    System.out.println("You are qualified for the US Army");
+
+                    if( numberOfDependants<= 2) {
+                        System.out.println("You are qualified for the US Army");
+                    }else{
+                        System.err.println("You must have no more than two dependents.");
+                    }
+
                 }else{
                     System.err.println("You must have a high school diploma");
                 }
@@ -28,6 +37,9 @@ public class QualificationForArmy {
         }else{
             System.err.println("You must be a U.S. citizen or a resident  or alien");
         }
+
+
+
 
     }
 

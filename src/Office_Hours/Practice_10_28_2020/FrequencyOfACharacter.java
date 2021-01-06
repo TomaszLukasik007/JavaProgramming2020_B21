@@ -1,11 +1,11 @@
 package Office_Hours.Practice_10_28_2020;
 
 public class FrequencyOfACharacter {
+
     public static void main(String[] args) {
 
-
         String str = "abaacaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbb";
-        // "abaac"
+                // "abaac"
 
         char ch = 'b';
 
@@ -15,12 +15,16 @@ public class FrequencyOfACharacter {
             char eachChar = str.charAt(i); // a, b, a, a, c
 
             if(eachChar == ch){
-                // a
+                         // a
                 count++;
             }
 
         }
 
         System.out.println(count);
+
+
+
     }
+
 }

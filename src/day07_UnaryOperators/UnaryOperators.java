@@ -1,8 +1,8 @@
 package day07_UnaryOperators;
 
 public class UnaryOperators {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         int a = -100;
         boolean isPositive = a > 0;  // verify if a is positive
         boolean isNegative = a < 0;  // verify if a is negative
@@ -14,7 +14,7 @@ public class UnaryOperators {
         System.out.println(b);
 
         int c = 10 - -20;  // +
-        // 10 + 20 = 30
+                // 10 + 20 = 30
 
         int d = -10 * 4; // -40
         int e = 10 * -4; // -40
@@ -38,7 +38,7 @@ public class UnaryOperators {
         System.out.println( ++x2 ); // 101
 
         System.out.println("================================================");
-        //  POST:
+      //  POST:
 
         int a2 = 100;
         System.out.println(a2++); // 100
@@ -50,4 +50,5 @@ public class UnaryOperators {
 
 
     }
+
 }

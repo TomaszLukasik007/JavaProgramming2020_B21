@@ -3,6 +3,7 @@ package day26_Arrays;
 import java.util.Scanner;
 
 public class MinMaxInArray {
+
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("How many number would you like to enter?");
@@ -30,6 +31,11 @@ public class MinMaxInArray {
 
         System.out.println("max = " + max);
         System.out.println("min = " + min);
+
+
+
+
+
 
     }
 

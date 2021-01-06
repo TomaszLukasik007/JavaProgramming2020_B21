@@ -6,10 +6,10 @@ public class ReverseArray {
 
     public static void main(String[] args) {
         int[] arr = {10, 20, 30, 40};  // length = 4
-        //   0    1   2   3
+                //   0    1   2   3
 
         System.out.println(Arrays.toString(arr) );
-        //  4
+                               //  4
         int[] reverse = new int[arr.length];
 /*
 //              j++      i--

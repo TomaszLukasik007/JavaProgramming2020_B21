@@ -1,26 +1,37 @@
 package day17_Strings;
-import java.util.Scanner;
+
+import java.lang.String; // This Package is always automatically importing
+
 public class String_Memory {
+
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
 
+                    /*
+                        String pool:
+   strOne -->             "java"    <-- strTwo
+                            "Java"  <-- strFive
 
-        String strOne = "java";
-        String strTwo = "java";
-        String strThree = new String("java");
+                        Heap:
+                            "java"    <- strThree
+                            "java"    <- strFour
+                     */
+
+        String strOne = "java"; // literal
+        String strTwo = "java"; // literal
+        String strThree = new String("java"); // Don't type original
         String strFour = new String("java");
 
+        System.out.println(strOne == strTwo); // true
+        System.out.println(strOne == strThree); // false
 
 
-        System.out.println(strOne == strTwo);
-        System.out.println(strOne == strThree);
-        System.out.println(strThree == strFour);
+        System.out.println(strThree == strFour); // false
 
 
-        String strFive = "Java";
+        String strFive = "Java"; // made in the String pool
 
-        System.out.println(strOne == strFive);
-
+        System.out.println(strOne == strFive); // false
 
     }
+
 }

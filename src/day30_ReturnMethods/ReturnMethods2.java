@@ -1,18 +1,19 @@
 package day30_ReturnMethods;
 
 public class ReturnMethods2 {
+
     public static void main(String[] args) {
         String names = "racecar";
 
-        //  String reversedName = reverseStr1(names);
+      //  String reversedName = reverseStr1(names);
 
         String reversedName = reverseStr2(names);
 
         System.out.println(reversedName);
 
-        // boolean isPalindrome = names.equalsIgnoreCase(reversedName);
+       // boolean isPalindrome = names.equalsIgnoreCase(reversedName);
 
-        //  System.out.println(isPalindrome);
+      //  System.out.println(isPalindrome);
 
 
     }

@@ -1,15 +1,15 @@
 package day28_MultiDimensionalArray;
 
 public class ArrayPractice2 {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
 
         String[] employeeNames = {"Asel", "Afrooz", "Safa" , "Suveyda", "Rinat"};
         //      index numbers:      0        1         2        3          4
 
         int[] employeeSalary = {1000000, 110000, 105000, 120000, 125000};
         // index numbers:         0       1       2        3       4
-        //4
+                                        //4
 
         int max = employeeSalary[0];
         String nameOfMax = employeeNames[0];
@@ -34,11 +34,12 @@ public class ArrayPractice2 {
         }
 
         System.out.println( nameOfMax+" has the maximum salary: $"+ max);
-        System.out.println( nameOfMin+" has the maximum salary: $"+ min);
+
 
         /*
             John : $100000
                ....
+
            who has the highest salary
            who has the minimum salary
          */

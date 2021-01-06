@@ -82,11 +82,16 @@ public class DateTimePractice {
 /*
 1. use the LocalDate & Time get the date and time in the following format:
 			Tue, 01:00 pm, November/24/2020
+
 	2. create an array of LocalDate and store the next 10 day's dates, use for each loop to print each Date in the following format:
 				MonthName/Day, Name
+
 				ex:
 					November/25, Wednesday
+
     3. create an array of string and store 5 of your friends' names
        create an array of LocalDate and store their DofB
+
        find out who is youngest and oldest
+
  */

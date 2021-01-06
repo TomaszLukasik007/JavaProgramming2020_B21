@@ -11,23 +11,23 @@ public class Pizza {
         this.pepperoniTopping = pepperoniTopping;
 
         priceOfPizza = calcCost();
-        tips = tips/100; //  converting percentage to decimal
+       // tips = tips/100; //  converting percentage to decimal
 
-        this.tips = tips * priceOfPizza;
-
-        totalPrice = priceOfPizza +  this.tips;
+        this.tips = tips/100 * priceOfPizza;
+        totalPrice = priceOfPizza +  this.tips + (priceOfPizza * 0.08); // including tax
 
     }
 
     public double calcCost(){
         double startingPrice = (size.equalsIgnoreCase("small")) ? 10
-                :size.equalsIgnoreCase("medium")? 12 : 14;
+                        :size.equalsIgnoreCase("medium")? 12 : 14;
 
         double cheese = 1 * cheeseTopping;
         double pepperoni = 1.5 * pepperoniTopping;
 
         return startingPrice + cheese+ pepperoni;
     }
+
 
     public String toString() {
         return "Pizza{" +
@@ -43,7 +43,6 @@ public class Pizza {
 
 }
 
-
 /*
 1. create a custom class for Pizza that should contain the following:
             variables:
@@ -53,9 +52,13 @@ public class Pizza {
                     priceOfPizza
                     tips
                     totalPrice
+
+
             methods:
                     customizeOrder(): allows user to set the size and toppings of Pizza
+
                     calcCost(): returns the price of the pizza
+
                     toString(): get the full informationa nd total cost of Pizza
             Pizza cost is determined by:
                         Small: $10 + $1.5 per pepperoni topping + 1$ per cheese topping

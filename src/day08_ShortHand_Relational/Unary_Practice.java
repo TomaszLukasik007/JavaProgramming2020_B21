@@ -1,8 +1,8 @@
 package day08_ShortHand_Relational;
 
 public class Unary_Practice {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         int a = 100; // a=100
         int b = -a++ + ++a - a-- * a-- % 2;
         // b = - 100 + 102 - 102 * 101 % 2
@@ -29,11 +29,3 @@ public class Unary_Practice {
                 1. int a = 100;
                    int b = -a++ + ++a - a-- * a-- % 2;
  */
-
-
-
-
-
-
-
-

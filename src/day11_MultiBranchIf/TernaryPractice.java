@@ -1,8 +1,8 @@
 package day11_MultiBranchIf;
 
 public class TernaryPractice {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         int n = 100;
         String result1 = "";
 
@@ -52,6 +52,14 @@ public class TernaryPractice {
         System.out.println(s1);
 
 
+        String s2 =  (number>0) ? "Positive" :(number < 0)? "Negative" : "Zero";
+        System.out.println(s2);
+
+
+
+
+
+
 
 
 
@@ -66,4 +74,5 @@ public class TernaryPractice {
 
 
     }
+
 }

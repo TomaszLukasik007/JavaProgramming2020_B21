@@ -17,7 +17,7 @@ public class DateTimePractice2 {
 
         System.out.println("=====================================================");
 
-        LocalDate dateOfBirth = LocalDate.of(1981, 04, 14);
+        LocalDate dateOfBirth = LocalDate.of(2010, 8, 17);
         System.out.println("You were born on: "+dateOfBirth.format(df));
 
         int currentAge = LocalDate.now().getYear() - dateOfBirth.getYear();
@@ -25,8 +25,8 @@ public class DateTimePractice2 {
         if(currentAge >= 21){
             System.out.println("You are eligible to buy alcohol");
         }else{
-            LocalDate eligible = LocalDate.of( LocalDate.now().plusYears(21-currentAge).getYear(),  dateOfBirth.getMonthValue(), dateOfBirth.getDayOfMonth()  );
-            //   2020 + 6
+           LocalDate eligible = LocalDate.of( LocalDate.now().plusYears(21-currentAge).getYear(),  dateOfBirth.getMonthValue(), dateOfBirth.getDayOfMonth()  );
+                                                 //   2020 + 6
             System.err.println("You will be eligible to buy alcohol on: "+eligible.format(df));
         }
 

@@ -45,7 +45,7 @@ public class BankAccount {
 
     public void deposit(double amount){
         if(amount < 0){
-            System.out.println("Invalid number");
+            System.out.println("Invalid number: "+amount);
             return;
         }
 
@@ -64,7 +64,7 @@ public class BankAccount {
     }
 
     public void availableBalance(){
-        System.out.println("Available Balance of "+ getAccountNumber() +" is: $"+getBalance());
+        System.out.println("Available Balance of the account# "+ getAccountNumber() +" is: $"+getBalance());
     }
 
 
@@ -73,12 +73,17 @@ public class BankAccount {
 
 /*
     create costum class called BankAccount for Bank of America
+
             public variables:  bankName, firstName, lastName
+
             private variables: accountHolder, accountNumber, balance
+
             encapsulate all the private data
                     (DO NOT USE SHORTCUT)
+
             create a constructor that can initialize firstName and lastName
                     (DO NOT USE SHORTCUT)
+
             public methods:
                     deposit (apply set Methods)
                     withdraw (apply set Methods)

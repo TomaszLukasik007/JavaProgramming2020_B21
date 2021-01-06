@@ -63,9 +63,9 @@ public class ListMethods {
         list2.add('D');
         list2.add('E');
 
-        //  Character ch = 'C';
+      //  Character ch = 'C';
 
-        boolean r1 =  list2.remove( Character.valueOf('X')  ); // 67
+       boolean r1 =  list2.remove( Character.valueOf('X')  ); // 67
 
         System.out.println(list2);
         System.out.println(r1);

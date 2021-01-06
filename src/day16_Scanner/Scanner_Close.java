@@ -1,4 +1,5 @@
 package day16_Scanner;
+
 import java.util.Scanner;
 
 public class Scanner_Close {
@@ -15,3 +16,6 @@ public class Scanner_Close {
 
     }
 }
+
+
+// Come back: 12:21 eastern

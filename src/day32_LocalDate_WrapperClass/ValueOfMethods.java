@@ -6,7 +6,7 @@ public class ValueOfMethods {
     public static void main(String[] args) {
         String  s1 = "123";
         int num1 =   Integer.valueOf(s1); // unboxing
-        // primitive  <==== wrapper class
+     // primitive  <==== wrapper class
 
         Integer num2 = Integer.valueOf(s1);  // none
 

@@ -3,9 +3,9 @@ package day22_JavaRecap;
 import java.util.Scanner;
 
 public class MaxMin {
+
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-
         int min = 2147483647;
         int max = -2147483648;
 
@@ -16,8 +16,9 @@ public class MaxMin {
             if( n < min){ // if the input is smaller than previous min  number
                 min = n;
             }
-            if( n > max ){  // if the input is greater than previous max number
-                max = n ;
+
+            if(n > max ){  // if the input is greater than previous max number
+               max = n ;
             }
 
         }
@@ -27,8 +28,7 @@ public class MaxMin {
         System.out.println("min = " + min);
         System.out.println("max = " + max);
 
+
     }
 
 }
-
-

@@ -1,12 +1,12 @@
 package day12_NestedIf;
 
 public class EqualityOfNumbers {
-
- /*
+    /*
         a, b , c
         a == b
         b == c
         a == c
+
      */
 
     public static void main(String[] args) {
@@ -24,7 +24,7 @@ public class EqualityOfNumbers {
         String result = "";
 
         if(n1 == n2 && n2 == n3 ){ // becomes if not all of them are equal
-            result = "all equal";
+           result = "all equal";
 
         }else if(n1 == n2 ){ // if not all of them are equal but n1 & n2 equal
             result = "n1&n2 are equal" ;
@@ -42,7 +42,7 @@ public class EqualityOfNumbers {
         System.out.println(result);
 
         String result2 = (n1 == n2 && n2 == n3 ) ? "all equal" :(n1 == n2 ) ? "n1&n2 are equal"
-                : (n2 == n3) ? "n2&n3 are equal" :(n1 == n3) ? "n1&n3 are equal" : "none of them are equal";
+                         : (n2 == n3) ? "n2&n3 are equal" :(n1 == n3) ? "n1&n3 are equal" : "none of them are equal";
 
         System.out.println(result2);
 

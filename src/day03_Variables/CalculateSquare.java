@@ -1,20 +1,32 @@
 package day03_Variables;
 
+/*
+declare variables:
+        DataType name = Data;
+ */
+
 public class CalculateSquare {
+
     public static void main(String[] args) {
 
-        int side = 10;
-        int area = side * side;
-        int perimeter = side * 4;
+        // side: 100
+        int side = 100;  // to make it reusable
 
-        System.out.print("\nPerimiter is: ");
-        System.out.print( perimeter );
-        System.out.print("\nArea is: ");
-        System.out.print( area );
+        int area  = side * side; // another info that we gained by using side
+                // to make it reusable
+
+        int perimeter = side * 4; // another info that we gained by using side
+
+        System.out.println("Area of Square is: ");
+        System.out.println(area);
+
+        System.out.println("Perimeter of Square is: ");
+        System.out.println(perimeter);
+
+
 
 
 
     }
-
 
 }

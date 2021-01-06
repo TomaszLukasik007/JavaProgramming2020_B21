@@ -21,9 +21,9 @@ public class ArrayListPractice2 {
         System.out.println(list);
 
         ArrayList<Integer> numbers = new ArrayList<>();
-        numbers.addAll(Arrays.asList(95,85, 75, 65, 55, 45, 35, 77, 97, 85));
+            numbers.addAll(Arrays.asList(95,85, 75, 65, 55, 45, 35, 77, 97, 85));
 
-        numbers.removeIf( p -> p < 75  );
+            numbers.removeIf( p -> p < 75  );
 
         System.out.println(numbers);
 
@@ -38,5 +38,7 @@ public class ArrayListPractice2 {
 		removeAll:
 		retainAll:
 		removeIf:
+
+
 		remover(): cannot be used inside loop with out Iterable
  */

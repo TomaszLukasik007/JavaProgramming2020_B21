@@ -1,6 +1,5 @@
 package day35_CustomClass;
 
-
 import java.time.LocalDate;
 
 public class Car {
@@ -28,6 +27,7 @@ public class Car {
 Car class:
 		Attributes: instance variables
 			brand, model, color, price, year....
+
 		actions: instance methods
 			driver(), stop()....
  */

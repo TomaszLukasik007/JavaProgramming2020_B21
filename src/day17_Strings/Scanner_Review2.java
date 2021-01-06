@@ -1,69 +1,46 @@
 package day17_Strings;
-import java.util.Scanner;
+
+/*
+- Place an order
+    - Ask the user the enter the product name (String, multiple words)
+    - Ask the user to enter the price (double)
+    - Ask the user to enter the quantity(int)
+    - Ask the user to enter their full name (String, multiple word)
+    - Print in the following format:
+        "$firstName, your order for $quantity $productName has been placed. Your total is $totalCost(price * quantity)."
+    Ex:
+        Input: "Apples" , 1.5, 5. "Luke"
+        Output: Luke, your order for 5 Apples has been places. Your total is 7.5.
+
+
+ */
+
+import java.util.*;
+
 public class Scanner_Review2 {
+
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in); // Make the Scanner object
 
-        System.out.println("Pick a number from 1 - 10");
-        byte num = input.nextByte(); // Accept one byte value
+        Scanner input = new Scanner(System.in);
 
-        if (num > 0 && num < 11) { // Makes sure the number is in the range
+        System.out.println("Enter the product name");
+        String product = input.nextLine();
 
-            System.out.println("Can you enter that number as a word");
-            String word = input.next(); // Accept one word
+        System.out.println("Enter the price");
+        double price = input.nextDouble();
 
-            boolean areMatching = false;
+        System.out.println("Enter the quantity");
+        int quantity = input.nextInt(); // We have to hit enter to submit the information
 
-            switch (word) {
+        input.nextLine();  // the enter from the above method will be absorbed
 
-                case "one":
-                    areMatching = (num == 1);
-                    break;
-                case "two":
-                    areMatching = (num == 2);
-                    break;
-                case "three":
-                    areMatching = (num == 3);
-                    break;
-                case "four":
-                    areMatching = (num == 4);
-                    break;
-                case "five":
-                    areMatching = (num == 5);
-                    break;
-                case "six":
-                    areMatching = (num == 6);
-                    break;
-                case "seven":
-                    areMatching = (num == 7);
-                    break;
-                case "eight":
-                    areMatching = (num == 8);
-                    break;
-                case "nine":
-                    areMatching = (num == 9);
-                    break;
-                case "ten":
-                    areMatching = (num == 10);
-                    break;
-                    // cases four - ten
-            }
+        System.out.println("Enter their full name");
+        String fullName = input.nextLine();
 
-            if (areMatching) {
-                System.out.println("Number: " + num);
-                System.out.println("Word: " + word);
-            } else {
-                System.out.println("The two inputs do not match");
-            }
+        System.out.println("Enter your address");
+        String address = input.nextLine();
 
+        System.out.println(fullName +  " your order for " + quantity + " " + product + " has been placed. Your total is " + (price * quantity) );
 
-        } else {
-            System.out.println(num + " was not between 1 - 10");
-
-
-
-        }
     }
 }
-
-

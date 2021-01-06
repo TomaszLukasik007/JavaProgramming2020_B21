@@ -1,8 +1,8 @@
 package day09_IfStatement;
 
 public class EligibleToVote {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         String name = "Jimmy";
         String citizen = "Korea";
 
@@ -30,9 +30,9 @@ public class EligibleToVote {
         Ex:
             name = "John"
             citizenShip = "USA"
+
             output:
                 John is eligible to vote for Donald Trump or Joe Biden?
                     true
+
  */
-
-

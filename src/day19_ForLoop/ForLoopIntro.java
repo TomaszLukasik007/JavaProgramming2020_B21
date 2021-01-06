@@ -1,9 +1,13 @@
 package day19_ForLoop;
 
+/*
+for( initialization; Condition ; Iterator){
+					statements;
+		}
+ */
 public class ForLoopIntro {
+
     public static void main(String[] args) {
-
-
 
 
         for(int i =1;  i <= 10;  i++ ){
@@ -22,13 +26,6 @@ public class ForLoopIntro {
 
         System.out.println("Hello Batch 21");
 
-
-
-
-
-
-
-
-
     }
+
 }

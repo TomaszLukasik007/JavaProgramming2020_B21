@@ -7,16 +7,16 @@ public class ConstructorCall {
     }
 
     public ConstructorCall(int a){ // default, int
-        // ConstructorCall();
+       // ConstructorCall();
         this(); // calling the default constructor
         System.out.println("Constructor with int arg");
     }
 
     public ConstructorCall(String str){ // dfeault, int, string
         this(10); // default, int
-        //   this();  // one constructor can ONLY call one constructor
+     //   this();  // one constructor can ONLY call one constructor
         System.out.println("Constructor with String arg");
-        //   this(10); // default, int   // constructor call MUST be at first step
+     //   this(10); // default, int   // constructor call MUST be at first step
     }
 
 

@@ -13,10 +13,10 @@ public class CarMax {
         Car car5 = new Car();
 
         car1.setInfo("Toyota", "Camry", "White", 2017, 10000);
-        //  car1.getInfo();
+      //  car1.getInfo();
 
         car2.setInfo("Honda","CR-V","Black", 2015, 15000.55 );
-        // car2.getInfo();
+       // car2.getInfo();
 
         car3.setInfo("Nissan", "R32 GTR", "Dark Red", 1991, 55000.99);
 

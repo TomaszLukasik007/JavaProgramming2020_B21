@@ -3,6 +3,7 @@ package day24_NestedLoop;
 public class UniqueChars {
 
     /*
+
         3. write a program that can find the unique characters from a string
             Ex:
                  str = "AABCDC";
@@ -11,6 +12,8 @@ public class UniqueChars {
             approach:
                     find the frequncy of each character one by one, and if the frequency of the character is equal to 1, it means it's unique
              In previous section we leaned how to find the frequency of one character. you will need to repeat the same steps
+
+
      */
 
 
@@ -23,7 +26,7 @@ public class UniqueChars {
 
             int frequency = 0; // resetting the value each iteration of the outer loop (first loop)
 
-            // charAt(index)
+             // charAt(index)
             //      0 -> A
             //      1 -> A
             //      2 -> B
@@ -38,7 +41,7 @@ public class UniqueChars {
                 //      4 -> C
                 //      5 -> D
 
-                if (str.charAt(index) == str.charAt(inner)) {
+                if(str.charAt(index) == str.charAt(inner)) {
                     frequency++;
                 }
 
@@ -60,4 +63,10 @@ public class UniqueChars {
         }
 
     }
+
+
+
+
+
+
 }

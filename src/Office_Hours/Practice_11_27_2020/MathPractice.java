@@ -6,20 +6,20 @@ import java.text.DecimalFormat;
 public class MathPractice {
 
     public static void main(String[] args) {
-        double n1 = Math.pow(2, 3);  // power
+       double n1 = Math.pow(2, 3);  // power
         //  2*2*2 =8
 
         System.out.println(n1);
 
-        double n2 =  Math.pow(10, 2);
-        // 10 * 10 = 100
+       double n2 =  Math.pow(10, 2);
+       // 10 * 10 = 100
 
         System.out.println(n2);
 
-        int n3 = Math.max(100, 200);
+      int n3 = Math.max(100, 200);
         System.out.println(n3);
 
-        int n4 =   Math.min(100, 200);
+      int n4 =   Math.min(100, 200);
         System.out.println(n4);
 
 

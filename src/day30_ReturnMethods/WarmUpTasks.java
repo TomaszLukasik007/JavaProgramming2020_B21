@@ -23,7 +23,7 @@ public class WarmUpTasks {
         gradeCalculator(85);
 
         //positiveNegativeZero(-120);
-        //   gradeCalculator(-120);
+     //   gradeCalculator(-120);
 
         System.out.println("======================================");
         int[] a1 = {10,50, 60, 70};
@@ -66,6 +66,7 @@ public class WarmUpTasks {
             } else {
                 System.out.println("F");
             }
+
              */
             System.out.println( (score>= 90)? 'A' :(score>=80)? 'B' :(score>=70)? 'C' :(score>=60)?'D':'F' );
 
@@ -81,12 +82,12 @@ public class WarmUpTasks {
         int i = 0;  // represents the index nums of arr3
 
         for(int each : arr1){
-            arr3[i++] = each; // each elements of arr1 is being assigned to the index of third array
+           arr3[i++] = each; // each elements of arr1 is being assigned to the index of third array
         }
 
         // i= 2
         for(int each : arr2){
-            arr3[i++]  = each; // each elements of arr2 is being assigned to the index of third array
+          arr3[i++]  = each; // each elements of arr2 is being assigned to the index of third array
         }
 
         Arrays.sort(arr3);
@@ -116,7 +117,7 @@ public class WarmUpTasks {
 
     // task5:                           // "cYbErTeK" ,
     public static void formattedFullName(String first, String last){
-        first = first.substring(0,1).toUpperCase() + first.substring(1).toLowerCase() ;     //"Cybertek"
+       first = first.substring(0,1).toUpperCase() + first.substring(1).toLowerCase() ;     //"Cybertek"
         last = last.substring(0,1).toUpperCase() + last.substring(1).toLowerCase() ;   // School
 
         String fullName = first + " " + last;
@@ -128,14 +129,21 @@ public class WarmUpTasks {
 }
 /*
 1. create a function that can check if the given integer is positive, negative or zero
+
 2. create a function that can calculate the grade of the student
+
 3. create a function that can print out the combination of two integer arrays
+
 4. create a function that can print a string without the duplicated characters
         "aaabbbccc"
+
         abc
+
 5.  write a method that can print out the full name of a person in regular format
             ex:
                fullName("cYbErTeK", "SCHOOL");
+
                	output:
                		"Cybertek School"
  */
+

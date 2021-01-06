@@ -3,13 +3,14 @@ package day29_Methods;
 import java.util.Scanner;
 
 public class Calculator {
+
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
 
         calculator(10, '+', 50);
 
-        //  calculator(scan.nextDouble(),  scan.next().charAt(0), scan.nextDouble() );
+      //  calculator(scan.nextDouble(),  scan.next().charAt(0), scan.nextDouble() );
 
 
     }
@@ -21,7 +22,7 @@ public class Calculator {
         if(isValid){
             switch (operator){
                 case '+': System.out.println("Addition: "+  (n1+n2) );
-                    break;
+                          break;
 
                 case '-': System.out.println("Subtraction: "+  (n1-n2) );
                     break;

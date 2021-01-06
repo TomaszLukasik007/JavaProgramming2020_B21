@@ -1,13 +1,10 @@
 package day14_Switch_Recap;
 
 public class SwitchStatementPractice {
+
     public static void main(String[] args) {
 
-
-     // char , String , byte , short,  mozna uzyc
-        ;
-
-        char a = 'A';
+      char a = 'A';
 
         switch (a){
 
@@ -20,5 +17,10 @@ public class SwitchStatementPractice {
                 break;
 
         }
+
+
+
     }
+
+
 }

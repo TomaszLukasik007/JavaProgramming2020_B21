@@ -58,6 +58,9 @@ public class CollectionUtility {
         list.add('A');
         list.add('A');
         list.add('A');
+        list.add('A');
+        list.add('A');
+        list.add('A');
 /*
         for(int i = 0; i <= list.size()-1; i++){
             char each = list.get(i);
@@ -69,7 +72,29 @@ public class CollectionUtility {
 
         Collections.replaceAll(list, 'A', 'E');
 
-        System.out.println(list);
+        System.out.println(list); // [E, B, C, E, D, E, E, E]
+        
+        int frequencyOfE = Collections.frequency(list, 'E');
+
+        System.out.println("frequencyOfE = " + frequencyOfE);
+
+        System.out.println("================================================");
+
+        ArrayList<Integer> nums = new ArrayList<>();
+        nums.add(100);
+        nums.add(1000);
+        nums.add(20);
+        nums.add(200);
+        nums.add(2000);
+        nums.add(10);
+
+        int max = Collections.max(nums);
+        int min = Collections.min(nums);
+
+        System.out.println("max = " + max);
+        System.out.println("min = " + min);
+
+
 
 
     }

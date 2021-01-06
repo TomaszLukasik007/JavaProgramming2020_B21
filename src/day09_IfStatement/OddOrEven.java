@@ -1,6 +1,7 @@
 package day09_IfStatement;
 
 public class OddOrEven {
+
     public static void main(String[] args) {
         int number = 1000;
 
@@ -25,7 +26,7 @@ public class OddOrEven {
         System.out.println("==========================================");
 
         System.out.println(  false ==  !true );
-        //    false == false ==> true
+                        //    false == false ==> true
 
         System.out.println( false != true && !false == true);
         //                      true && true ==> true
@@ -55,7 +56,9 @@ public class OddOrEven {
         /*
             !no ==> yes
             !yes ==> no
+
             !funny ==> not funny
+
          */
 
         System.out.println( !!true ); // true
@@ -68,15 +71,6 @@ public class OddOrEven {
 
 
 
-
-
-
-
-
-
-
-
-
-
     }
+
 }

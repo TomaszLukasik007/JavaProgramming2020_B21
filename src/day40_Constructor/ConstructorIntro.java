@@ -18,7 +18,7 @@ public class ConstructorIntro {
 
     public static void main(String[] args) {
         System.out.println("Hello");
-        // System.out.println(a);
+       // System.out.println(a);
 
         int num =   new ConstructorIntro(200).a; // a = 200
 

@@ -42,5 +42,6 @@ Task1:
 				Ex:
 					str = "Java java java python python"
 					word = "java";
+
 					frequencyOfWord(str, word) ==>  3
  */

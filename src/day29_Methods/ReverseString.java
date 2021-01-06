@@ -1,7 +1,9 @@
 package day29_Methods;
 
 public class ReverseString {
+
     public static void main(String[] args) {
+
         reverse("Cybertek School");
 
         System.out.println("=================================");
@@ -9,7 +11,7 @@ public class ReverseString {
         String[] names = {"Sayyohat", "Livio", "Marwan", "Inna", "Halim", "Afrooz", "Maryam"};
 
         for( String each : names)
-            reverse(each);
+                reverse(each);
 
     }
 
@@ -24,6 +26,8 @@ public class ReverseString {
 
         System.out.println(result);
     }
+
+
 
 
 }

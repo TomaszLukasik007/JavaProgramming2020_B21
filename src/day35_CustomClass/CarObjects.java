@@ -41,6 +41,7 @@ public class CarObjects {
         String str1 = "Toyota";
         String str2 = "BMW";
         String str3 = "Lexus";
+
         System.out.println(str1);
         System.out.println(str2);
         System.out.println(str3);

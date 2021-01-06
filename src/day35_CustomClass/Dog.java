@@ -27,7 +27,7 @@ public class Dog {
     // to print the info of the dog objects
     public void getInfo(){
         System.out.println("Name: "+nickName+", Breed: "+breed+", Gender: "+gender+", Color: "+color
-                +", Size: "+size+", Age: "+  age );
+                            +", Size: "+size+", Age: "+  age );
     }
 
     public void eat(String food){

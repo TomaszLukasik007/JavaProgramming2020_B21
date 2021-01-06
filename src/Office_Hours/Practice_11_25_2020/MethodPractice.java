@@ -12,7 +12,7 @@ public class MethodPractice {
         divisibleBy3(100, 10);
 
 
-        //    grade(5.5);
+    //    grade(5.5);
         grade(85);
 
         eligibleToVote(25,false);

@@ -1,17 +1,8 @@
 package day13_SwitchStatement;
 
 public class Browsers {
+
     public static void main(String[] args) {
-
-     /*   2. write a program that can display the selected browser
-        1. declear a String variable called browserName
-        2. Assume that the valid browsers are: chrome, firefox, opera, safari, edge, ie
-        3. if the browser name does not match with the valid browsers' names, out put should be: Invalid Browser Name
-        Ex:
-        browserName = "chrome";
-        output:
-        Chrome Browser is Selected                */
-
         String browserName = "firefox";
 
         boolean valid = browserName == "chrome" || browserName == "firefox" || browserName == "opera"
@@ -42,30 +33,16 @@ public class Browsers {
 
         System.out.println(selectedBrowser);
 
+
     }
+
+
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*
+2. write a program that can display the selected browser
+        1. declear a String variable called browserName
+        2. Assume that the valid browsers are: chrome, firefox, opera, safari, edge, ie
+        3. if the browser name does not match with the valid browsers' names,
+        out put should be: Invalid Browser Name
+ */

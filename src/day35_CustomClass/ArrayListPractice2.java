@@ -21,11 +21,11 @@ public class ArrayListPractice2 {
         System.out.println("===========================================================");
 
         ArrayList<Integer> numbers = new ArrayList<>();
-        numbers.addAll( Arrays.asList(1,2,3,4,5,6,7,8,9,10,11,12,-1, -2, -3, -4, -1,0,1,2,3));
+            numbers.addAll( Arrays.asList(1,2,3,4,5,6,7,8,9,10,11,12,-1, -2, -3, -4, -1,0,1,2,3));
 
-        // only keep the numbers 7, 8, 9
-        numbers.retainAll(  Arrays.asList(7, 8, 9)  );
-        //      numbers.removeIf( p ->  !(p==7 || p==8 || p==9) );
+            // only keep the numbers 7, 8, 9
+         numbers.retainAll(  Arrays.asList(7, 8, 9)  );
+      //      numbers.removeIf( p ->  !(p==7 || p==8 || p==9) );
 
         System.out.println(numbers);
 
@@ -41,7 +41,7 @@ public class ArrayListPractice2 {
         list.addAll(Arrays.asList(1,2,3,4,5,6,7,8,100, 200, 300, 400, 500, 12, 130));
 
         // soolution1:
-        // list.removeIf( p -> p > 100);
+       // list.removeIf( p -> p > 100);
 
         // solution 2:
         ArrayList<Integer> temp = new ArrayList<>();
@@ -66,8 +66,10 @@ public class ArrayListPractice2 {
 task03:
 			1. create an Array of String called jobTitles
 			2. write a program that only keeps the jobTitles that are: SDET and QA
+
 	task04:
 		Given a list of Integers 1, 2, 3, 4, 5, 6 ....etc. remove all values greater than 100.
+
 				solution 1: use lambda
 				solution 2: do not use lambda
  */

@@ -1,5 +1,4 @@
 package day10_IfElseStatement;
-
 /*
 relational operators: >, <, >=, <=, ==, !=
  */
@@ -51,7 +50,7 @@ public class Relational {
         System.out.println("Russian" == "English"); // false
 
 
-        // !=
+    // !=
         System.out.println("Russian Language" == "Japense Language"); // false
         System.out.println("Russian Language" != "Japense Language"); // true
 
@@ -64,13 +63,6 @@ public class Relational {
 
 
 
-
-
-
-
-
-
-
-
     }
+
 }

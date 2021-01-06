@@ -1,34 +1,32 @@
 package day08_ShortHand_Relational;
 
 public class IdentifyNumber {
+
     public static void main(String[] args) {
+        
+        int number = 1500;
 
-       int number = 200;
-       boolean isPositive = number > 0;
-        boolean isNegative = number < 0;
-        boolean isZero = number == 0;
+        boolean isPositive = number > 0; // if number is greater than zero then it is positive
+        boolean isNegative = number < 0; // if number is less than zero then it is negative
+        boolean isZero =   number == 0; // if number is equal to zero, then it's zero
 
-        System.out.println( number+" is positive number: "+isPositive);
-        System.out.println( number+" is negative number: "+isNegative);
-        System.out.println( number+" is zero : "+isZero);
-
-        System.out.println("=================================================================");
-
-              int angle1 = 30;
-              int angle2 = 30;
-              int angle3 = 90;
-
-              int sum = angle1 + angle2 + angle3;
-              boolean isValid = sum==180;
-
-              System.out.println("the trinagle is valid : "+isValid);
-
-
-
-
-
+        System.out.println( number+ " is positive number: " + isPositive);
+        System.out.println( number+ " is negative number: " + isNegative);
+        System.out.println( number+" is zero: "+isZero);
 
 
 
     }
+
 }
+
+/*
+    number = 200
+
+    output:
+        200 is positive number: true
+        200 is negative number: false
+        200 is zero: false
+
+
+ */

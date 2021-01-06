@@ -10,9 +10,9 @@ public class Device {
     public static boolean hasPowerButton;
 
     static{
-        madeIn = "China" ;
-        hasBattery = true;
-        hasPowerButton = true;
+       madeIn = "China" ;
+       hasBattery = true;
+       hasPowerButton = true;
     }
 
     public void setInfo(String deviceName, String brand, String model, double price) {
@@ -46,5 +46,6 @@ public class Device {
 	Device:
 		instance variables: brand, model, price
 		static: madeIn, hasBattery, hasPowerButton
+
 		methods: setInfo, toString
  */

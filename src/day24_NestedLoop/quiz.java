@@ -1,35 +1,14 @@
 package day24_NestedLoop;
 
-import java.util.Scanner;
+public class Quiz {
 
-public class quiz {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+        String s1 = "abc";
+        String s2 = "abc";
 
-String ta  = "A";
-
-ta = ta.concat("B ");
-        String tb  = "C";
-ta = ta +tb;
-ta.replace('C', 'D');
-ta = ta+tb;
-        System.out.println(ta);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        System.out.println("s1 == s2" + s1 == s2);
+                    // "s1 == s2 + abc"  == s2
+                    // only gives boolean
 
 
     }

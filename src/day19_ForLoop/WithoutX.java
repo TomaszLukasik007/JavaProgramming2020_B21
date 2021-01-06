@@ -3,13 +3,10 @@ package day19_ForLoop;
 import java.util.Scanner;
 
 public class WithoutX {
+
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-    /* 2. Ask user to enter a word. If the work starts with x, print the word without x.
-                    Input:
-                        xcode
-                    Output:
-                        code     */
+
         System.out.println("Enter a word");
         String word = scan.nextLine();
 
@@ -44,8 +41,18 @@ public class WithoutX {
 
 
 
-
-
-
     }
+
 }
+
+/*
+2. Ask user to enter a word. If the work starts with x, print the word without x.
+                    Input:
+                        xcode
+                    Output:
+                        code
+
+                    xxcode
+                     xcode
+
+ */

@@ -22,17 +22,23 @@ public class MethodPractice2 {
     }
 
     public static int max(int a, int b, int c){
-        return  max(   max(a,b) ,    c);
+       return  max(   max(a,b) ,    c);
     }
 
     public static int max(int a, int b, int c, int d){
-        //  int n =  max(a,b,c);
-        return  max( max(a,b,c)  ,  d   );
+      //  int n =  max(a,b,c);
+       return  max( max(a,b,c)  ,  d   );
+    }
+
+    public static double max(double a, double b){
+        return (a>=b)? a : b ;
     }
 
 
     /*
     create methods for min number
+
+    make sure that max method also accepts decimals
      */
 
 

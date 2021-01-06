@@ -1,8 +1,8 @@
 package day08_ShortHand_Relational;
 
 public class RelationalOperators {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         int num1 = 1000;
         int num2 = 20000;
 
@@ -24,7 +24,7 @@ public class RelationalOperators {
         System.out.println( 10 < 9);
 
         System.out.println("====================================");
-        // >=, <=
+            // >=, <=
 
         System.out.println(  10 > 10 ); // false
         System.out.println( 10 >= 10); // 10 is greater or equal to 10 ==> true
@@ -40,7 +40,7 @@ public class RelationalOperators {
         System.out.println(b1);
         System.out.println(b2);
 
-        boolean b3 = "Cybertek" == "Virginia"; // false
+       boolean b3 = "Cybertek" == "Virginia"; // false
         System.out.println(b3);
 
         boolean b4 = "Virginia" == "virginia"; // false
@@ -54,13 +54,15 @@ public class RelationalOperators {
 
         int x = 100;
         boolean isEven =  x % 2 == 0; //100 is evenly divisible by 2
-        // Even number: if a number can be evenly divisible by 2 with 0 remainder
+            // Even number: if a number can be evenly divisible by 2 with 0 remainder
 
         boolean isOdd = x % 2 != 0; // opposite of even
 
-        // System.out.println( "10" > 9);
+       // System.out.println( "10" > 9);
+
 
 
 
     }
+
 }

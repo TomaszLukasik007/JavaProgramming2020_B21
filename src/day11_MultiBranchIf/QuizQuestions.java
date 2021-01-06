@@ -1,6 +1,7 @@
 package day11_MultiBranchIf;
 
 public class QuizQuestions {
+
     public static void main(String[] args) {
 
         int ivar = 100;
@@ -28,8 +29,6 @@ public class QuizQuestions {
 
 
 
-
-
-
     }
+
 }

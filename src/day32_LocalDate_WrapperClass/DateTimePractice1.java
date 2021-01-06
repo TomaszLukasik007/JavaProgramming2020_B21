@@ -28,15 +28,16 @@ public class DateTimePractice1 {
         // current age:
         int age1 = LocalDate.now().getYear() - DofB1.getYear();
         int age2 = LocalDate.now().getYear() - DofB2.getYear();
+
         // after 30 years:
         int after1 = age1+30;
         int after2 = age2+30;
          */
 
         // 30 year after:
-        //  2050                          -  2000     = 50
+                        //  2050                          -  2000     = 50
         int age1 = LocalDate.now().plusYears(30).getYear() - DofB1.getYear();
-        // 2050                            - 1990     = 60
+                        // 2050                            - 1990     = 60
         int age2 = LocalDate.now().plusYears(30).getYear() - DofB2.getYear();
 
 

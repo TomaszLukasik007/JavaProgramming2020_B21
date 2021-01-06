@@ -11,11 +11,11 @@ public class SalaryCalculator {
         numberOfWeeks = 52;
     }
     // 7.8888888     7.9
-    //                                                                          8                  20
+ //                                                                          8                  20
 //                                                                          0.08                0.2
     public SalaryCalculator(double weeklyHours, double hourlyRate, double stateTaxRate, double federalTaxRate) {
         if(stateTaxRate > 1){
-            stateTaxRate /= 100;
+           stateTaxRate /= 100;
         }
         if(federalTaxRate > 1){
             federalTaxRate /= 100;

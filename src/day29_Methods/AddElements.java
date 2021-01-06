@@ -4,7 +4,6 @@ import java.util.Arrays;
 
 public class AddElements {
 
-
     public static void main(String[] args) {
         int[] arr ={10, 20, 30, 40};
 
@@ -16,7 +15,7 @@ public class AddElements {
     }
 
 
-    // {1,2,3},   4
+                                    // {1,2,3},   4
     public static void addElements(int[] arr,   int num){
         int[] result = new int[arr.length+1];
 

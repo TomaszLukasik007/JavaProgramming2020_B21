@@ -8,15 +8,15 @@ public class ArraysPractice2 {
         String sentence = "Today is a great day to celeberate the thanks giving by doing java tasks";
         String[] words =   sentence.split(" ");
         System.out.println(sentence);
-        // System.out.println( Arrays.toString(words) );
+       // System.out.println( Arrays.toString(words) );
         String result = "";
 
         for(int i = words.length-1; i >= 0 ;i-- ){
-            // System.out.print(words[i]+" ");
+           // System.out.print(words[i]+" ");
             result += words[i]+" ";
         }
 
-        result = result.trim();
+         result = result.trim();
         System.out.println(result);
 
         System.out.println("=======================================");

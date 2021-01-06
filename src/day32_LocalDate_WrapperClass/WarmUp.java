@@ -75,7 +75,11 @@ public class WarmUp {
 
 /*
 	1. create a return method called addElements that can add an Integer  after the  last index of an integer array
+
 	2. create a return method called addElements that can add a double after the last index of a double array
+
 	3. create a return method called addElements that can add a String after the last index of a String array
+
 	4. create a return method called addElements that can add a char after last index of a char array
+
  */

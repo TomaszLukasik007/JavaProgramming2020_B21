@@ -11,7 +11,7 @@ public class Date {
         System.out.println(yesterday);
 
         //LocalDate d1 = LocalDate.of(2019, 2, 29);
-        // System.out.println(d1);
+       // System.out.println(d1);
 
         System.out.println(  yesterday.isLeapYear() ); // Leap ==> true, otherwise ==> false
 
@@ -20,7 +20,7 @@ public class Date {
 
         System.out.println(today);
 
-        // LocalDate DofB
+       // LocalDate DofB
 
         String[] names={"Julia","inna","Anna","Ruslan","Livio"};
         LocalDate[] birthdays = {

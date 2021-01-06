@@ -1,45 +1,49 @@
 package day06_ArithmeticOperators;
 
 public class EscapeSequences_Recap {
-    public static void main(String[] args) {
-     /*
 
+    public static void main(String[] args) {
+
+        System.out.println("\tHello Everyone\n\tHello Batch 21\n\tToday I learned new 'programming' language \"Java\"");
+
+        System.out.println("============================================================");
+
+        System.out.println("My favorite quote is:\n\t\"Winter is Coming\"\n\t\t\t\t- Ned Stark");
+
+        System.out.println("=============================================================");
+        System.out.println("\\");
+
+        System.out.println("=============================================================");
+
+        System.out.println("Hi Cybertek\n\tToday is a great day!\nI am happy to be part of \"Bacth 21\".");
+
+    }
+
+}
+
+
+/*
+ Escape sequences: for text
         \n: append new line
-        \t: tab space, paragraph spce
+        \t: tab space, paragraph space
         \\: \
         \": double quote
 
+    Hello Everyone
+    Hello Batch 21
+    Today I have learned a programming language "Java"
+
+    My favorite quote is:
+        "YourFavoriteQuote"
+                    - Name
 
 
-        Hello Everyone
-        Hello Batch 21
-        Today I have learn a programming language "Java"
-        */
+                    \
 
-        System.out.println("Hello Everyone\nHello Batch 21\nToday I have learn a programming language \"Java\"");
+        "Hi Cybertek\n\tToday is a great day!\nI am happy to be part of \"Bacth 21\"."
 
-        System.out.println("Hello Everyone\tHello Batch 21\tToday I have learn a programming language \"Java\"");
+        Hi Cybertek
+            Today is great day!
+        I am happy to be part of "Bacth 21"/
 
-        System.out.println("Hello Everyone\\Hello Batch 21\\Today I have learn a programming language \"Java\"");
-
-        System.out.println("Hello Everyone\"Hello Batch 21\"Today I have learn a programming language \"Java\"");
-
-        System.out.println("============================================================================");
-           /* My favorite quote is:
-	            "YourfavoriteQuote"
-				          - Name
-		System.out.println("\\"); // da ci to \
-				          */
-        System.out.println("My favorite quote is: \n\t \"YourfavoriteQuote\"\n\t\t\t\t- \\Name");
-
-     /*   My favorite quote is:
-        "YourfavoriteQuote"
-                - \Name
-
-              */
-
-
-
-
-    }
-}
+ */

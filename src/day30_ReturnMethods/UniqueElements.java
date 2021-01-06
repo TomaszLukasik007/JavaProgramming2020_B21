@@ -29,7 +29,7 @@ public class UniqueElements {
     }
 
 
-    //                          "aaabc" ,   'a'  ==> 3
+      //                          "aaabc" ,   'a'  ==> 3
     public static int frequency(String str, char ch){
         int count = 0;
 
@@ -57,6 +57,9 @@ public class UniqueElements {
 
         return unique;
     }
+
+
+    // frequencyOfCharacters("aaabbccccd")  ==> "a3b2c4d1"
 
 
 }

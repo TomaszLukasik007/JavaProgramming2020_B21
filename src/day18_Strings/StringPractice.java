@@ -1,9 +1,8 @@
 package day18_Strings;
-import java.util.Scanner;
-public class StringPractice {
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
 
+public class StringPractice {
+
+    public static void main(String[] args) {
         String s1 = "Cat";
         String s2 = "Cat";
 
@@ -29,26 +28,26 @@ public class StringPractice {
 
         System.out.println("======================================================");
         String str = "cybertek";
-        str =  str.toUpperCase(); // "CYBERTEK"
+                 str =  str.toUpperCase(); // "CYBERTEK"
 
         System.out.println(str);
 
-        str =  str.toLowerCase(); // "cybertek"
+                str =  str.toLowerCase(); // "cybertek"
 
         System.out.println(str);
 
         System.out.println("======================================================");
-        String name = "TomaszLukasik";
+        String name = "CybertekSchool";
 
-        int n1 = name.length(); // 14
-        // last index: 13
+         int n1 = name.length(); // 14
+                                // last index: 13
         System.out.println(n1);
 
-        String name2 = "Tomasz";
-        //      012345
+        String name2 = "Muhtar";
+                //      012345
 
         int n2 = name2.length(); // 6
-        // last index: 5
+                                 // last index: 5
         int lastIndex = name2.length()-1;
         System.out.println(n2);
         System.out.println(lastIndex);
@@ -58,24 +57,27 @@ public class StringPractice {
 
         char firstChar = a.charAt(0);
         char lastChar = a.charAt( a.length()-1 );
-        //       last index num of a
+                        //       last index num of a
 
         System.out.println("First character: "+firstChar);
         System.out.println("Last character: "+lastChar);
 
-        System.out.println("=====================================================================");
+        System.out.println("======================================");
 
-        String b = "Today is Monday";
+        String b = "Today is Monday, and it's fun";
 
         char secondChar = b.charAt(1);
-        char secondLastChar = b.charAt(b.length()-2);
+        char secondLastChar = b.charAt( b.length()-2);
 
-        System.out.println("secondChar = "+secondChar);
-        System.out.println("secondLastChar = "+secondLastChar);
+        System.out.println("secondChar = " + secondChar);
+        System.out.println("secondLastChar = " + secondLastChar);
+
 
 
 
 
 
     }
+
+
 }

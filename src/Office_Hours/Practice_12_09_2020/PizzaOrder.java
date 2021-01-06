@@ -28,7 +28,7 @@ public class PizzaOrder {
         double total =0;
 
         for ( Pizza each :cybertekPizza){
-            total  += each.totalPrice;
+              total  += each.totalPrice;
         }
 
         System.out.println("Total Price: "+total);
@@ -43,28 +43,36 @@ public class PizzaOrder {
          */
 
         ArrayList<Pizza> pizzas = new ArrayList<>();
-        for(int i = 1; i <= 60; i++ ) {
-            Pizza medium = new Pizza();
-            medium.customizeOrder("Medium",2, 3, 18);
+         for(int i = 1; i <= 60; i++ ) {
+             Pizza medium = new Pizza();
+             medium.customizeOrder("Medium",2, 3, 18);
 
-            Pizza large = new Pizza();
-            large.customizeOrder("Large",3, 4, 18);
+             Pizza large = new Pizza();
+             large.customizeOrder("Large",3, 4, 18);
 
-            Pizza small = new Pizza();
-            small.customizeOrder("small", 1, 2, 18);
+             Pizza small = new Pizza();
+             small.customizeOrder("small", 1, 2, 18);
 
-            pizzas.addAll(Arrays.asList(small, medium, large)  );
+             pizzas.addAll(Arrays.asList(small, medium, large)  );
 
-        }
+         }
 
         System.out.println("Number of Pizza: "+pizzas.size());
 
-        double sum = 0;
-        for(Pizza eachPizza : pizzas  ){
-            sum  += eachPizza.totalPrice;
+         double sum = 0;
+         for(Pizza eachPizza : pizzas  ){
+           sum  += eachPizza.totalPrice;
         }
 
         System.out.println(sum);
+
+
+
+
+
+
+
+
 
 
 

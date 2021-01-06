@@ -1,8 +1,8 @@
 package day09_IfStatement;
 
 public class IfStatementPractice {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         int year = 2020;
         boolean isPandemic =  year == 2020;
 
@@ -23,7 +23,7 @@ public class IfStatementPractice {
         int age = 20;
         boolean isUSCitizen = false;
 
-        boolean eligible =  isUSCitizen && age >= 18 && age <= 70 ;
+        boolean eligible =  isUSCitizen && age >= 18 ;
         //                    false && true ==> false
 
         if(eligible){
@@ -43,16 +43,3 @@ public class IfStatementPractice {
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

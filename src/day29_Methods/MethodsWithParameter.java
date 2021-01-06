@@ -1,37 +1,41 @@
 package day29_Methods;
 
 public class MethodsWithParameter {
+
     public static void main(String[] args) {
 
+        int age = 35;
 
-      int age = 35;
+        eligibleToBuyAlcohol( age );
 
-      eligibleToBuyAlcohol(age);
+        eligibleToBuyAlcohol(30);
 
-      calculateAge(1953,2020);
+        calculateAge(2018, 2015);
+        calculateAge(1965, 2020);
 
-      calculateAge(1981,2020);
-
-      calculateAge(1985,2020);
-
-      calculateAge(2017,2020);
-
+        calculateAge(1976, 2020);
 
     }
 
+    public static void eligibleToBuyAlcohol(int age){
 
-     public static void eligibleToBuyAlcohol(int age){
         if(age >= 21){
-            System.out.println("Eligible to buy Alcohol");
+            System.out.println("Eligible to buy alcohol");
         }else{
-            System.out.println("Not Eligible to buy Alcohol");
+            System.out.println("Not Eligible to buy alcohol");
         }
+
     }
 
-     public static void calculateAge(int birthYear, int currentYear){
+    public static void calculateAge(int birthYear, int currentYear){
+
+        if(birthYear < currentYear) {
+            System.out.println("Your Age is: " + (currentYear - birthYear) + " years old");
+        }else{
+            System.out.println("Invalid Entry");
+        }
+
+    }
 
 
-         System.out.println("Your Age is: "+(currentYear-birthYear) );
-     }
 }
-

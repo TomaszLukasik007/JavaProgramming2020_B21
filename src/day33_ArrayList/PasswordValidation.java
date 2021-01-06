@@ -1,6 +1,7 @@
 package day33_ArrayList;
 
 public class PasswordValidation {
+
     public static void main(String[] args) {
         String password = "passWord 7";
 
@@ -29,6 +30,7 @@ public class PasswordValidation {
 
         /*
         for(char each : password.toCharArray() ){   // each character of password
+
             if(Character.isUpperCase(each)){
                 hasUpperCase = true;
             }else if(Character.isLowerCase(each)){

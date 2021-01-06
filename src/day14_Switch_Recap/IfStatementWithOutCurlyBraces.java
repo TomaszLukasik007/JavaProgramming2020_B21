@@ -27,8 +27,8 @@ public class IfStatementWithOutCurlyBraces {
         int b = 10;
 
         if(b > 0) System.out.println("Positive");
-        else if(b < 0)  System.out.println("Negative");
-        else System.out.println("Zero");
+         else if(b < 0)  System.out.println("Negative");
+         else System.out.println("Zero");
 
         System.out.println("=========================================");
 
@@ -53,5 +53,14 @@ public class IfStatementWithOutCurlyBraces {
         else
             day = "Invalid";
 
+
+
+
+
+
+
+
     }
+
+
 }

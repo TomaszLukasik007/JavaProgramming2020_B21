@@ -1,20 +1,18 @@
 package day03_Variables;
 
-import java.sql.SQLOutput;
-
 public class PersonalInfo {
 
     public static void main(String[] args) {
-        System.out.println("Name: Tomasz Lukasik");
+
+        System.out.println("Name: Cybertek");
         System.out.println("Gender: Male");
-        System.out.println("Date of Birth: 04.14.1981");
-        System.out.println("Adress: U.S.A IL");
-        System.out.println("Phone nb: 312 763 1193");
-        System.out.println("SSN: 000-00-0000");
-
-
+        System.out.println("Date Of Birth: 03/09/2014");
+        System.out.println("Address: 7925 Johns Branch Driver, McLean VA");
+        System.out.println("Phone Number: 1234567");
+        System.out.println("Social Security Number: 47896521");
 
 
     }
+
 
 }

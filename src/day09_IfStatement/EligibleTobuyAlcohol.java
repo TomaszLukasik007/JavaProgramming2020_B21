@@ -1,7 +1,9 @@
 package day09_IfStatement;
 
-public class EligibleTobuyAlcohol {
+public class EligibleToBuyAlcohol {
+
     public static void main(String[] args) {
+
         String name = "Aaron";
         int age = 39;
 
@@ -19,6 +21,7 @@ public class EligibleTobuyAlcohol {
         Ex:
             name = "James"
             age = 19
+
             output:
                 James is eligible to buy alcohol?
                     false
